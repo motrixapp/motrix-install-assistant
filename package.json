@@ -7,6 +7,10 @@
     "name": "Dr_rOot",
     "email": "agalwood.net@gmail.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:motrixapp/motrix-install-assistant.git"
+  },
   "license": "Apache-2.0",
   "private": true,
   "debug": {

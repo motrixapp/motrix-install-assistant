@@ -43,6 +43,7 @@
     "type": "development",
     "darkModeSupport": true,
     "hardenedRuntime": false,
+    "notarize": false,
     "category": "public.app-category.utilities"
   },
   "win": {
