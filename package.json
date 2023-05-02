@@ -1,6 +1,6 @@
 {
   "name": "MotrixInstallAssistant",
-  "version": "1.7.2",
+  "version": "1.7.3",
   "main": "dist-electron/main/index.js",
   "description": "Motrix Install Assistant",
   "author": {
