@@ -1,0 +1,92 @@
+{
+  "productName": "Install Motrix",
+  "appId": "net.agalwood.Motrix",
+  "afterSign": "./build/afterSignHook.js",
+  "asar": true,
+  "directories": {
+    "output": "release"
+  },
+  "files": [
+    "dist-electron",
+    "dist"
+  ],
+  "dmg": {
+    "window": {
+      "width": 540,
+      "height": 380
+    },
+    "contents": [
+      {
+        "x": 410,
+        "y": 230,
+        "type": "link",
+        "path": "/Applications"
+      },
+      {
+        "x": 130,
+        "y": 230,
+        "type": "file"
+      }
+    ]
+  },
+  "mac": {
+    "target": [
+      {
+        "target": "zip",
+        "arch": [
+          "x64",
+          "arm64"
+        ]
+      }
+    ],
+    "artifactName": "Motrix-${version}-${arch}-mac.${ext}",
+    "type": "development",
+    "darkModeSupport": true,
+    "hardenedRuntime": false,
+    "category": "public.app-category.utilities"
+  },
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": [
+          "x64",
+          "ia32"
+        ]
+      },
+      {
+        "target": "zip",
+        "arch": [
+          "x64",
+          "ia32"
+        ]
+      },
+      {
+        "target": "portable",
+        "arch": [
+          "x64",
+          "ia32"
+        ]
+      }
+    ]
+  },
+  "nsis": {
+    "artifactName": "${productName}-Setup-${version}.${ext}",
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true
+  },
+  "linux": {
+    "category": "Network",
+    "target": [
+      "AppImage",
+      "deb",
+      "rpm"
+    ]
+  },
+  "publish": [
+    {
+      "provider": "generic",
+      "url": "https://dl.motrix.app/releases/"
+    }
+  ]
+}

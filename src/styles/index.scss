@@ -1,0 +1,110 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-image: linear-gradient(180deg, #2E221E 0%, #242424 100%);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+code {
+  background-color: #1a1a1a;
+  padding: 2px 4px;
+  margin: 0 4px;
+  border-radius: 4px;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.box .github-logo {
+  position: fixed;
+  top: 1rem;
+  right: 1.25rem;
+  z-index: 100;
+}
+
+.box-inner {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.box h1 {
+  margin: 1.25rem 0;
+}
+
+.actions a.action-btn {
+  display: inline-block;
+}
+
+.actions a.action-btn + .el-button {
+  margin-left: 12px;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #2b2b2b;
+    background-image: linear-gradient(180deg, #F4F4F4 0%, #E1E1E1 100%);
+  }
+
+  .el-progress-bar__outer {
+    background-color: #fff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #111;
+    color: #fff;
+  }
+  code {
+    background-color: #f9f9f9;
+  }
+}
