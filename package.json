@@ -7,7 +7,7 @@
     "name": "Dr_rOot",
     "email": "agalwood.net@gmail.com"
   },
-  "license": "MIT",
+  "license": "Apache-2.0",
   "private": true,
   "debug": {
     "env": {
