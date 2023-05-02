@@ -1,5 +1,13 @@
 # Motrix Install Assistant
 
+<p>
+  <a href="https://motrix.app">
+    <img src="./build/256x256.png" width="256" alt="App Icon" />
+  </a>
+</p>
+
+English | [简体中文](./README-CN.md)
+
 Since Motrix v1.8.0 and later versions changed the App BundleID, the automatic update of Motrix v1.6.11 will fail. This install assistant will help you install the latest Motrix application.
 
 Motrix will be downloaded on the `Caches` dir.
