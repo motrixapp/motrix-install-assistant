@@ -8,7 +8,7 @@
 
 [English](./README.md) | 简体中文
 
-Motrix v1.8.0+ 版本更改了应用 BundleID, Motrix v1.6.11 的自动更新会因为签名不一致而失败。 本安装助手将帮助您安装最新的 Motrix 应用程序。
+Motrix v1.8.0+ 版本更改了应用 BundleID, Motrix v1.6.11 的自动更新会因为签名不一致而失败。本安装助手将帮助您安装最新的 Motrix 应用程序。
 
 Motrix 安装文件会下载到 `Caches` 目录。
 
