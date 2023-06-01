@@ -40,7 +40,7 @@
     "electron-updater": "^6.1.0",
     "element-plus": "^2.3.4",
     "fs-extra": "^11.1.1",
-    "modern-normalize": "^1.1.0",
+    "modern-normalize": "^2.0.0",
     "open": "^9.1.0",
     "sass": "^1.62.1",
     "sudo-prompt": "^9.2.1",
