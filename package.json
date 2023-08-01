@@ -33,7 +33,7 @@
     "adm-zip": "^0.5.10",
     "decompress": "^4.2.1",
     "dotenv": "^16.0.3",
-    "electron": "^22.3.7",
+    "electron": "^25.3.2",
     "electron-builder": "^24.3.0",
     "electron-dl": "^3.5.0",
     "electron-log": "^4.4.8",
